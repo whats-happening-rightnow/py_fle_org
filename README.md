@@ -10,9 +10,9 @@ Usage:
 
 Populate `config.py` file:
 
-`SOURCE_FOLDERS` = folders where files to be moved located, multiple folders separated with a pipe `|`
-`DESTINATION_FOLDER` = destination folders where files are to be moved,  multiple folders separated with a pipe `|`
-`IGNORE_DESTINATION_FOLDER` = any sub-folders at destination location that should be ignored,  multiple folders separated with a comma `,`
-`STAGE_FOLDER` = folder where files should be moved prior to moving to final destination - for review - specificy one location only
+* `SOURCE_FOLDERS` = folders where files to be moved located, multiple folders separated with a pipe `|`
+* `DESTINATION_FOLDER` = destination folders where files are to be moved,  multiple folders separated with a pipe `|`
+* `IGNORE_DESTINATION_FOLDER` = any sub-folders at destination location that should be ignored,  multiple folders separated with a comma `,`
+* `STAGE_FOLDER` = folder where files should be moved prior to moving to final destination - for review - specificy one location only
 
 Once config done, run: `python fleorg.py`
